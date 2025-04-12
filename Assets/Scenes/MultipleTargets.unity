@@ -1210,7 +1210,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Pokemon Cries - Espeon
+          m_StringArgument: Espeon-Cry
           m_BoolArgument: 0
         m_CallState: 2
   minDamage: 5
@@ -1841,7 +1841,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Pikachu Thunderbolt - Sound Effect
+          m_StringArgument: Pikachu_Cry
           m_BoolArgument: 0
         m_CallState: 2
   minDamage: 4
@@ -2582,7 +2582,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: '#006 Mega Charizard Y Cry'
+          m_StringArgument: Charizard_Cry
           m_BoolArgument: 0
         m_CallState: 2
   minDamage: 5
@@ -3678,9 +3678,9 @@ MonoBehaviour:
   audioPrefix: 
   audioList:
   - pokemon_battle_theme
-  - Pokemon Cries - Espeon
-  - Pikachu Thunderbolt - Sound Effect
-  - '#006 Mega Charizard Y Cry'
+  - Espeon-Cry
+  - Pikachu_Cry
+  - Charizard_Cry
   audioS: {fileID: 212566242}
   musicS: {fileID: 893687271}
   masterMixer: {fileID: 0}
