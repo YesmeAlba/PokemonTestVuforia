@@ -1135,6 +1135,18 @@ MonoBehaviour:
           m_StringArgument: Espeon_Death
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1564887017}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Espeon-Death
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &299964248
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1172,6 +1184,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1564887017}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Espeon_Aparicion
           m_BoolArgument: 0
         m_CallState: 2
   onAttack:
@@ -1805,6 +1829,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1564887017}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Pikachu-Aparicion
+          m_BoolArgument: 0
+        m_CallState: 2
   onAttack:
     m_PersistentCalls:
       m_Calls:
@@ -1841,7 +1877,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Pikachu_Cry
+          m_StringArgument: Pikachu-Death
           m_BoolArgument: 0
         m_CallState: 2
   minDamage: 4
@@ -1906,6 +1942,18 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 645123454}
         m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Pikachu_Death
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1564887017}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
         m_MethodName: Play
         m_Mode: 5
         m_Arguments:
@@ -3681,6 +3729,10 @@ MonoBehaviour:
   - Espeon-Cry
   - Pikachu_Cry
   - Charizard_Cry
+  - Espeon_Aparicion
+  - Espeon-Death
+  - Pikachu-Aparicion
+  - Pikachu-Death
   audioS: {fileID: 212566242}
   musicS: {fileID: 893687271}
   masterMixer: {fileID: 0}
